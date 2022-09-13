@@ -26,7 +26,7 @@ console.log("L'assegnazione della variabile ha restituito " + heisenberg)
 
 
 
-// nome troopo lungo?
+
 const rispostaAllaDomandaFondamentaleSullaVitaLUuniversoEeTuttoQuanto = 42
 
 console.log ('Risposta...etc è: ' + rispostaAllaDomandaFondamentaleSullaVitaLUuniversoEeTuttoQuanto)
@@ -37,6 +37,8 @@ console.log('variabile doppio è: ' + doppio)
 
 
 // RispostaAllaDomandaFondamentaleSullaVitaLUuniversoEeTuttoQuanto = 'ciao'
+
+// RIAASEGNAZIONE DI UNA VARIABILE COST
 rispostaAllaDomandaFondamentaleSullaVitaLUuniversoEeTuttoQuanto += 42
 console.log('ora Risposta..etc è: ' + rispostaAllaDomandaFondamentaleSullaVitaLUuniversoEeTuttoQuanto)
 
