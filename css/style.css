@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    
+    font-size: larger;
+    font-weight: 700;
+    height: 100vh;
+    
+}
+
+.sfondo {
+    background-image: url(../assets/rick.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height:0;
+    width:100%;
+    padding-bottom:100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.calc {
+    color: black;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 10px;
+    min-height: 50px;
+    padding: 1em;
+}
+
+
