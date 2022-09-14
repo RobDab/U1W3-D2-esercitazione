@@ -10,12 +10,32 @@
     <title>Variables JS</title>
   </head>
   <body>
-    <div class="sfondo">
-      <div class="calc">
-        <h1>calcolatore di valore assoluto</h1>
-        <p>Risultato: <span id="risultato"></span></p>
+    <header>
+      <h1>Simple Functions</h1>
+      <p>Choose between the following programs</p>
+    </header>
+    <main>
+      <div class="programma">
+        <h3>|Valore Assoluto|</h3>
+        <button onclick="valAssoluto()">Avvia Calcolatore</button>
+        <!-- <p>Risultato: <span id="risultato"></span></p> -->
+        <div id="risultato"></div>
       </div>
-    </div>
+
+      <div class="programma">
+        <h3>Area del Cerchio</h3>
+        <button onclick="circleArea()">Avvia Calcolatore</button>
+        <!-- <p>Risultato: <span id="risultato"></span></p> -->
+        <div id="risultato_area_cerchio"></div>
+      </div>
+
+      <div class="programma">
+        <h3>Volume del Cilindro</h3>
+        <button onclick="volumeCylinder()">Avvia Calcolatore</button>
+        <!-- <p>Risultato: <span id="risultato"></span></p> -->
+        <div id="risultato_volume_cilindro"></div>
+      </div>
+    </main>
 
     <script src="../js/script.js"></script>
   </body>
